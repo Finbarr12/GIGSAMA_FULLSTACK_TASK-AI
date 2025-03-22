@@ -95,7 +95,7 @@ export function SchemaDesigner() {
           role: "assistant",
           content: `Error: ${
             data.error ||
-            "Failed to get response from AI. Please check server configuration."
+            "Failed to get response from AI. Please check server configurations."
           }`,
         };
         setMessages((prev) => [...prev, errorMessage]);
